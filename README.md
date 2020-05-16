@@ -111,7 +111,7 @@ La ricerca confronterà prima nella lista prenotazione quale prenotazione deve e
 - int ricercaCodiceStorico(int,codicePrenotazione *) ***Riceve come parametro un intero che rappresenta il codice da ricercare e la lista codicePrenotazione riferita ad un nodo cliente. Il suo scopo è :***
 	- **Ricercare se esiste un nodo codicePrenotazione esistente con il codice passato come parametro**
 	- **Restituisce 0 se esiste, restituisce 1 se non esiste**
-- void storicoClienti(prenotazione *,cliente *) ***Riceve come parametro un nodo prenotazione e la lista clienti. Il suo scopo è : ***
+- void storicoClienti(prenotazione *,cliente *) ***Riceve come parametro un nodo prenotazione e la lista clienti. Il suo scopo è :***
 	- **Tramite la funzione cercaCliente(...) cerca il cliente con la CI della prenotazione passata come parametro**
 	- **Se esiste richiama la funzione ricercaCodiceStorico(...) se essa restituisce 0 richiama la funzione inserisciScorico(...) ed inserisce un codice nella lista codicePrenotazione inerente a quel cliente**
 	- **Se non esiste stampa un messaggio d'errore**
