@@ -39,7 +39,7 @@ La ricerca confronterà prima nella lista prenotazione quale prenotazione deve e
         7 < 9
         Significa che la stanza in quei giorni dato che sono successivi è libera
         pOld < pNew significa successivo
-		#### OPPURE
+		OPPURE
         pOld        pNew
         5 - 7      3 - 4
         5 > 3
