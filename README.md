@@ -104,7 +104,7 @@ La ricerca confronterà prima nella lista prenotazione quale prenotazione deve e
 - cliente * cercaCliente(cliente *,char[]) ***Riceve come parametro la lista clienti ed una stringa che rappresenta la CI. Il suo scopo :***
 	- **Ricerca se esiste un cliente avente la CI passata come paramentro**
 	- **Restituisce il puntatore al nodo se esiste, restituisce NULL se non esiste**
-- cliente inserisciCliente(cliente *) ***Riceve come paramentro la lista clienti. Il suo scopo : ***
+- cliente inserisciCliente(cliente *) ***Riceve come paramentro la lista clienti. Il suo scopo :***
 	- **Di fare I/O con l'stdin per i dati del nuovo cliente**
 	- **Controlla la sua esistenza**
 	- **In caso non esista nessun cliente con quella CI restituisce il dato preso da I/O. In caso contrario restituisce NULL**
